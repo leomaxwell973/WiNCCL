@@ -1,0 +1,227 @@
+﻿  Compiling CUDA source file ..\src\all_gather.cu...
+  Compiling CUDA source file ..\src\all_reduce.cu...
+  Compiling CUDA source file ..\src\core.cu...
+  Compiling CUDA source file ..\src\libwrap.cu...
+  Compiling CUDA source file ..\src\broadcast.cu...
+  Compiling CUDA source file ..\src\reduce_scatter.cu...
+  Compiling CUDA source file ..\src\reduce.cu...
+  
+  C:\Users\LeonM\Downloads\NCCL-master\windows>"C:\CUDA\CUDA\v11.3\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" -gencode=arch=compute_53,code=\"sm_53,compute_53\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -IC:\CUDA\CUDA\v11.3\include -IC:\CUDA\CUDA\v11.3\include     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart shared -allow-unsupported-compiler   -D"CUDA11_0,COMPILING_NCCL" -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\obj.11.3\vc142.pdb /FS   /MD " -o x64\Release\obj.11.3\all_gather.cu.obj "C:\Users\LeonM\Downloads\NCCL-master\src\all_gather.cu" 
+  
+  C:\Users\LeonM\Downloads\NCCL-master\windows>"C:\CUDA\CUDA\v11.3\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" -gencode=arch=compute_53,code=\"sm_53,compute_53\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -IC:\CUDA\CUDA\v11.3\include -IC:\CUDA\CUDA\v11.3\include     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart shared -allow-unsupported-compiler   -D"CUDA11_0,COMPILING_NCCL" -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\obj.11.3\vc142.pdb /FS   /MD " -o x64\Release\obj.11.3\all_reduce.cu.obj "C:\Users\LeonM\Downloads\NCCL-master\src\all_reduce.cu" 
+  
+  
+  C:\Users\LeonM\Downloads\NCCL-master\windows>"C:\CUDA\CUDA\v11.3\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" -gencode=arch=compute_53,code=\"sm_53,compute_53\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -IC:\CUDA\CUDA\v11.3\include -IC:\CUDA\CUDA\v11.3\include     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart shared -allow-unsupported-compiler   -D"CUDA11_0,COMPILING_NCCL" -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\obj.11.3\vc142.pdb /FS   /MD " -o x64\Release\obj.11.3\libwrap.cu.obj "C:\Users\LeonM\Downloads\NCCL-master\src\libwrap.cu" 
+  C:\Users\LeonM\Downloads\NCCL-master\windows>"C:\CUDA\CUDA\v11.3\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" -gencode=arch=compute_53,code=\"sm_53,compute_53\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -IC:\CUDA\CUDA\v11.3\include -IC:\CUDA\CUDA\v11.3\include     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart shared -allow-unsupported-compiler   -D"CUDA11_0,COMPILING_NCCL" -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\obj.11.3\vc142.pdb /FS   /MD " -o x64\Release\obj.11.3\core.cu.obj "C:\Users\LeonM\Downloads\NCCL-master\src\core.cu" 
+  
+  C:\Users\LeonM\Downloads\NCCL-master\windows>"C:\CUDA\CUDA\v11.3\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" -gencode=arch=compute_53,code=\"sm_53,compute_53\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -IC:\CUDA\CUDA\v11.3\include -IC:\CUDA\CUDA\v11.3\include     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart shared -allow-unsupported-compiler   -D"CUDA11_0,COMPILING_NCCL" -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\obj.11.3\vc142.pdb /FS   /MD " -o x64\Release\obj.11.3\broadcast.cu.obj "C:\Users\LeonM\Downloads\NCCL-master\src\broadcast.cu" 
+  
+  
+  C:\Users\LeonM\Downloads\NCCL-master\windows>"C:\CUDA\CUDA\v11.3\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" -gencode=arch=compute_53,code=\"sm_53,compute_53\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -IC:\CUDA\CUDA\v11.3\include -IC:\CUDA\CUDA\v11.3\include     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart shared -allow-unsupported-compiler   -D"CUDA11_0,COMPILING_NCCL" -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\obj.11.3\vc142.pdb /FS   /MD " -o x64\Release\obj.11.3\reduce_scatter.cu.obj "C:\Users\LeonM\Downloads\NCCL-master\src\reduce_scatter.cu" 
+  C:\Users\LeonM\Downloads\NCCL-master\windows>"C:\CUDA\CUDA\v11.3\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" -gencode=arch=compute_53,code=\"sm_53,compute_53\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -IC:\CUDA\CUDA\v11.3\include -IC:\CUDA\CUDA\v11.3\include     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart shared -allow-unsupported-compiler   -D"CUDA11_0,COMPILING_NCCL" -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\obj.11.3\vc142.pdb /FS   /MD " -o x64\Release\obj.11.3\reduce.cu.obj "C:\Users\LeonM\Downloads\NCCL-master\src\reduce.cu" 
+CUDACOMPILE : nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  libwrap.cu
+CUDACOMPILE : nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  core.cu
+C:\Users\LeonM\Downloads\NCCL-master\src\core.cu(244): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'size_t'
+  C:\Users\LeonM\Downloads\NCCL-master\src\core.cu(244): note: consider using '%zd' in the format string
+C:\Users\LeonM\Downloads\NCCL-master\src\core.cu(257): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'size_t'
+  C:\Users\LeonM\Downloads\NCCL-master\src\core.cu(257): note: consider using '%zu' in the format string
+C:\Users\LeonM\Downloads\NCCL-master\src\core.cu(277): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'size_t'
+  C:\Users\LeonM\Downloads\NCCL-master\src\core.cu(277): note: consider using '%zu' in the format string
+C:\Users\LeonM\Downloads\NCCL-master\src\core.cu(288): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'size_t'
+  C:\Users\LeonM\Downloads\NCCL-master\src\core.cu(288): note: consider using '%zu' in the format string
+C:\Users\LeonM\Downloads\NCCL-master\src\core.cu(668): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 2 has type 'size_t'
+  C:\Users\LeonM\Downloads\NCCL-master\src\core.cu(668): note: consider using '%zu' in the format string
+CUDACOMPILE : nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  broadcast.cu
+C:\Users\LeonM\Downloads\NCCL-master\src\common_coll.h(102): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  C:\Users\LeonM\Downloads\NCCL-master\src\broadcast.cu(141): note: see reference to function template instantiation 'void ArgsSetup<unsigned __int64>(KernelArgs<unsigned __int64> *,const void *,void *,const int,const int,ncclComm *)' being compiled
+  C:\Users\LeonM\Downloads\NCCL-master\src\broadcast.cu(153): note: see reference to function template instantiation 'ncclResult_t RingBroadcast<FuncNull<unsigned __int64>,T>(void *,const int,const int,ncclComm *,cudaStream_t)' being compiled
+          with
+          [
+              T=unsigned __int64
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\broadcast.cu(152): note: while compiling class template member function 'ncclResult_t Broadcast<T,Op>::entry(const void *,void *,int,int,ncclComm *,cudaStream_t)'
+          with
+          [
+              T=unsigned __int64,
+              Op=FuncNull
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(41): note: see reference to function template instantiation 'ncclResult_t Broadcast<T,Op>::entry(const void *,void *,int,int,ncclComm *,cudaStream_t)' being compiled
+          with
+          [
+              T=unsigned __int64,
+              Op=FuncNull
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(41): note: see reference to class template instantiation 'Broadcast<T,Op>' being compiled
+          with
+          [
+              T=unsigned __int64,
+              Op=FuncNull
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(78): note: see reference to function template instantiation 'ncclResult_t enqueue<ColFunc,unsigned __int64,Op>(const void *,void *,int,int,ncclComm_t,cudaStream_t)' being compiled
+          with
+          [
+              ColFunc=Broadcast,
+              Op=FuncNull
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\broadcast.cu(162): note: see reference to function template instantiation 'ncclResult_t enqueue<Broadcast,FuncNull>(const void *,void *,int,ncclDataType_t,int,ncclComm_t,cudaStream_t)' being compiled
+CUDACOMPILE : nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  all_gather.cu
+C:\Users\LeonM\Downloads\NCCL-master\src\common_coll.h(102): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  C:\Users\LeonM\Downloads\NCCL-master\src\all_gather.cu(179): note: see reference to function template instantiation 'void ArgsSetup<unsigned __int64>(KernelArgs<unsigned __int64> *,const void *,void *,const int,const int,ncclComm *)' being compiled
+  C:\Users\LeonM\Downloads\NCCL-master\src\all_gather.cu(191): note: see reference to function template instantiation 'ncclResult_t RingAllGather<FuncNull<unsigned __int64>,T>(const void *,void *,const int,ncclComm *,cudaStream_t)' being compiled
+          with
+          [
+              T=unsigned __int64
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\all_gather.cu(190): note: while compiling class template member function 'ncclResult_t AllGather<T,Op>::entry(const void *,void *,int,int,ncclComm *,cudaStream_t)'
+          with
+          [
+              T=unsigned __int64,
+              Op=FuncNull
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(41): note: see reference to function template instantiation 'ncclResult_t AllGather<T,Op>::entry(const void *,void *,int,int,ncclComm *,cudaStream_t)' being compiled
+          with
+          [
+              T=unsigned __int64,
+              Op=FuncNull
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(41): note: see reference to class template instantiation 'AllGather<T,Op>' being compiled
+          with
+          [
+              T=unsigned __int64,
+              Op=FuncNull
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(78): note: see reference to function template instantiation 'ncclResult_t enqueue<ColFunc,unsigned __int64,Op>(const void *,void *,int,int,ncclComm_t,cudaStream_t)' being compiled
+          with
+          [
+              ColFunc=AllGather,
+              Op=FuncNull
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\all_gather.cu(200): note: see reference to function template instantiation 'ncclResult_t enqueue<AllGather,FuncNull>(const void *,void *,int,ncclDataType_t,int,ncclComm_t,cudaStream_t)' being compiled
+CUDACOMPILE : nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  reduce.cu
+C:\Users\LeonM\Downloads\NCCL-master\src\common_coll.h(102): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  C:\Users\LeonM\Downloads\NCCL-master\src\reduce.cu(125): note: see reference to function template instantiation 'void ArgsSetup<unsigned __int64>(KernelArgs<unsigned __int64> *,const void *,void *,const int,const int,ncclComm *)' being compiled
+  C:\Users\LeonM\Downloads\NCCL-master\src\reduce.cu(137): note: see reference to function template instantiation 'ncclResult_t RingReduce<FuncMin<unsigned __int64>,T>(const void *,void *,const int,const int,ncclComm *,cudaStream_t)' being compiled
+          with
+          [
+              T=unsigned __int64
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\reduce.cu(136): note: while compiling class template member function 'ncclResult_t ReduceFunctor<T,Op>::entry(const void *,void *,int,int,ncclComm *,cudaStream_t)'
+          with
+          [
+              T=unsigned __int64,
+              Op=FuncMin
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(41): note: see reference to function template instantiation 'ncclResult_t ReduceFunctor<T,Op>::entry(const void *,void *,int,int,ncclComm *,cudaStream_t)' being compiled
+          with
+          [
+              T=unsigned __int64,
+              Op=FuncMin
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(41): note: see reference to class template instantiation 'ReduceFunctor<T,Op>' being compiled
+          with
+          [
+              T=unsigned __int64,
+              Op=FuncMin
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(78): note: see reference to function template instantiation 'ncclResult_t enqueue<ColFunc,unsigned __int64,Op>(const void *,void *,int,int,ncclComm_t,cudaStream_t)' being compiled
+          with
+          [
+              ColFunc=ReduceFunctor,
+              Op=FuncMin
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(104): note: see reference to function template instantiation 'ncclResult_t enqueue<ColFunc,FuncMin>(const void *,void *,int,ncclDataType_t,int,ncclComm_t,cudaStream_t)' being compiled
+          with
+          [
+              ColFunc=ReduceFunctor
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\reduce.cu(146): note: see reference to function template instantiation 'ncclResult_t enqueue<ReduceFunctor>(const void *,void *,int,ncclDataType_t,ncclRedOp_t,int,ncclComm_t,cudaStream_t)' being compiled
+CUDACOMPILE : nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  reduce_scatter.cu
+C:\Users\LeonM\Downloads\NCCL-master\src\common_coll.h(102): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  C:\Users\LeonM\Downloads\NCCL-master\src\reduce_scatter.cu(142): note: see reference to function template instantiation 'void ArgsSetup<unsigned __int64>(KernelArgs<unsigned __int64> *,const void *,void *,const int,const int,ncclComm *)' being compiled
+  C:\Users\LeonM\Downloads\NCCL-master\src\reduce_scatter.cu(154): note: see reference to function template instantiation 'ncclResult_t RingReduceScatter<FuncMin<unsigned __int64>,T>(const void *,void *,const int,ncclComm *,cudaStream_t)' being compiled
+          with
+          [
+              T=unsigned __int64
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\reduce_scatter.cu(153): note: while compiling class template member function 'ncclResult_t ReduceScatter<T,Op>::entry(const void *,void *,int,int,ncclComm *,cudaStream_t)'
+          with
+          [
+              T=unsigned __int64,
+              Op=FuncMin
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(41): note: see reference to function template instantiation 'ncclResult_t ReduceScatter<T,Op>::entry(const void *,void *,int,int,ncclComm *,cudaStream_t)' being compiled
+          with
+          [
+              T=unsigned __int64,
+              Op=FuncMin
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(41): note: see reference to class template instantiation 'ReduceScatter<T,Op>' being compiled
+          with
+          [
+              T=unsigned __int64,
+              Op=FuncMin
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(78): note: see reference to function template instantiation 'ncclResult_t enqueue<ColFunc,unsigned __int64,Op>(const void *,void *,int,int,ncclComm_t,cudaStream_t)' being compiled
+          with
+          [
+              ColFunc=ReduceScatter,
+              Op=FuncMin
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(104): note: see reference to function template instantiation 'ncclResult_t enqueue<ColFunc,FuncMin>(const void *,void *,int,ncclDataType_t,int,ncclComm_t,cudaStream_t)' being compiled
+          with
+          [
+              ColFunc=ReduceScatter
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\reduce_scatter.cu(163): note: see reference to function template instantiation 'ncclResult_t enqueue<ReduceScatter>(const void *,void *,int,ncclDataType_t,ncclRedOp_t,int,ncclComm_t,cudaStream_t)' being compiled
+CUDACOMPILE : nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  all_reduce.cu
+C:\Users\LeonM\Downloads\NCCL-master\src\common_coll.h(102): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  C:\Users\LeonM\Downloads\NCCL-master\src\all_reduce.cu(211): note: see reference to function template instantiation 'void ArgsSetup<unsigned __int64>(KernelArgs<unsigned __int64> *,const void *,void *,const int,const int,ncclComm *)' being compiled
+  C:\Users\LeonM\Downloads\NCCL-master\src\all_reduce.cu(223): note: see reference to function template instantiation 'ncclResult_t RingAllReduce<FuncMin<unsigned __int64>,T>(const void *,void *,const int,ncclComm *,cudaStream_t)' being compiled
+          with
+          [
+              T=unsigned __int64
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\all_reduce.cu(222): note: while compiling class template member function 'ncclResult_t AllReduce<T,Op>::entry(const void *,void *,int,int,ncclComm *,cudaStream_t)'
+          with
+          [
+              T=unsigned __int64,
+              Op=FuncMin
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(41): note: see reference to function template instantiation 'ncclResult_t AllReduce<T,Op>::entry(const void *,void *,int,int,ncclComm *,cudaStream_t)' being compiled
+          with
+          [
+              T=unsigned __int64,
+              Op=FuncMin
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(41): note: see reference to class template instantiation 'AllReduce<T,Op>' being compiled
+          with
+          [
+              T=unsigned __int64,
+              Op=FuncMin
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(78): note: see reference to function template instantiation 'ncclResult_t enqueue<ColFunc,unsigned __int64,Op>(const void *,void *,int,int,ncclComm_t,cudaStream_t)' being compiled
+          with
+          [
+              ColFunc=AllReduce,
+              Op=FuncMin
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\enqueue.h(104): note: see reference to function template instantiation 'ncclResult_t enqueue<ColFunc,FuncMin>(const void *,void *,int,ncclDataType_t,int,ncclComm_t,cudaStream_t)' being compiled
+          with
+          [
+              ColFunc=AllReduce
+          ]
+  C:\Users\LeonM\Downloads\NCCL-master\src\all_reduce.cu(232): note: see reference to function template instantiation 'ncclResult_t enqueue<AllReduce>(const void *,void *,int,ncclDataType_t,ncclRedOp_t,int,ncclComm_t,cudaStream_t)' being compiled
+     Creating library C:\Users\LeonM\Downloads\NCCL-master\windows\x64\Release\nccl64_134.11.3.lib and object C:\Users\LeonM\Downloads\NCCL-master\windows\x64\Release\nccl64_134.11.3.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  nccl.11.3.vcxproj -> C:\Users\LeonM\Downloads\NCCL-master\windows\x64\Release\nccl64_134.11.3.dll
+  copy "C:\CUDA\CUDA\v11.3\bin\cudart*.dll" "C:\Users\LeonM\Downloads\NCCL-master\windows\x64\Release\"
+  C:\CUDA\CUDA\v11.3\bin\cudart32_110.dll
+  C:\CUDA\CUDA\v11.3\bin\cudart64_110.dll
+          2 file(s) copied.
